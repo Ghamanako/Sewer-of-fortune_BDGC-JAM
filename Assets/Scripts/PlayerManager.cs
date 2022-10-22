@@ -15,17 +15,22 @@ public class PlayerManager : MonoBehaviour
     public LayerMask groundMask;
     public float speed;
     public float jumpForce;
+    public GameObject Camera;
+    public AudioSource FootStep;
+
 
     // Start is called before the first frame update
     void Start()
     {
         character = GetComponent<CharacterController>();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMove();
+        boobing();
 
     }
 
@@ -33,6 +38,7 @@ public class PlayerManager : MonoBehaviour
     {
         GroundDetector();
         Jump();
+       
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
 
@@ -60,6 +66,35 @@ public class PlayerManager : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
+            StopBoobing();
         }
     }
+
+    void boobing()
+    {
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            StartBoobing();
+            FootStep.enabled = true;
+        }
+        else
+        {
+            FootStep.enabled = false;  
+            StopBoobing();
+        }
+
+        
+    }
+
+    public void StartBoobing()
+    {
+        Camera.GetComponent<Animator>().Play("head bobbing");
+    }
+
+    public void StopBoobing()
+    {
+        Camera.GetComponent<Animator>().Play("New State");
+    }
+
+   
 }

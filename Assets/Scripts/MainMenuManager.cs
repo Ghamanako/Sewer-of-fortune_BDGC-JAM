@@ -8,15 +8,17 @@ public class MainMenuManager : MonoBehaviour
     public string _gameplay;
     public GameObject settingsUI;
     public GameObject exitPrompt;
+    public GameObject aboutPanel;
 
     public bool isSetting = false;
     public bool isExit = false;
+    public bool isAbout = false;
     // Start is called before the first frame update
     void Start()
     {
         settingsUI.SetActive(false);
         exitPrompt.SetActive(false);
-        
+        aboutPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -58,6 +60,20 @@ public class MainMenuManager : MonoBehaviour
         {
             exitPrompt.SetActive(false);
             isExit = false;
+        }
+    }
+
+    public void aboutUI()
+    {
+        if (!isAbout)
+        {
+            aboutPanel.SetActive(true);
+            isAbout = true;
+        }
+        else
+        {
+            aboutPanel.SetActive(false);
+            isAbout = false;
         }
     }
 }

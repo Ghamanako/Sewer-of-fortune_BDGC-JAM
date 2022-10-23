@@ -656,6 +656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterSFX (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5847308904052589086, guid: e9f0cb56e3adc79469179cb31c3cdb9f, type: 3}
+      propertyPath: MinDistance
+      value: 16.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5847308904052589087, guid: e9f0cb56e3adc79469179cb31c3cdb9f, type: 3}
       propertyPath: m_RootOrder
       value: 5

@@ -1920,7 +1920,7 @@ PrefabInstance:
     - target: {fileID: 6973285310554929017, guid: d2fd34cd3694e564faec2a4acc6a888a, type: 3}
       propertyPath: interactImage
       value: 
-      objectReference: {fileID: 185842740}
+      objectReference: {fileID: 0}
     - target: {fileID: 6973285310554929020, guid: d2fd34cd3694e564faec2a4acc6a888a, type: 3}
       propertyPath: m_RootOrder
       value: 4

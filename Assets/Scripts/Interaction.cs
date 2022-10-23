@@ -15,7 +15,7 @@ public class Interaction : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        interactImage = GameObject.Find("Image").GetComponent<Image>();
     }
 
     // Update is called once per frame

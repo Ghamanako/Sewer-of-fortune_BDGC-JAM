@@ -12,6 +12,36 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroScene.unity
     guid: 8cc7a03c59ebdff4183971036fb7cdce
   - enabled: 1
+    path: Assets/Scenes/Sewer Entrance.unity
+    guid: def7a40bd87dead44824c71fd241ef55
+  - enabled: 1
+    path: Assets/Scenes/Room 1.unity
+    guid: 9adc88cbf14d7014c8b2e81849ffad9c
+  - enabled: 1
+    path: Assets/Scenes/Room 2.unity
+    guid: 278286e634d595d47b30971360e92b7f
+  - enabled: 1
+    path: Assets/Scenes/Room 3.unity
+    guid: fd54a26e15774cd48bddbc98dc661c9b
+  - enabled: 1
+    path: Assets/Scenes/Room 4.unity
+    guid: d1affe21026472d4dab24610e112d49d
+  - enabled: 1
+    path: Assets/Scenes/Room 5.unity
+    guid: e9c05d51bfc3019479927c910761ade2
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Dead Ending.unity
+    guid: 297cdc6d2ee349f439c13c21055fcc4b
+  - enabled: 1
+    path: Assets/Scenes/Ending 1.unity
+    guid: d35af913948b45f439c75ae331fafdd3
+  - enabled: 1
+    path: Assets/Scenes/Ending 2.unity
+    guid: 5e00cbe9f4e15124fac3ef0d10beaa1f
+  - enabled: 1
+    path: Assets/Scenes/Ending 3.unity
+    guid: 8e06436216e78344bad64403f44e9298
   m_configObjects: {}

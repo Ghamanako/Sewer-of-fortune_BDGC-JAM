@@ -6,6 +6,6 @@ public class IntroScene : MonoBehaviour
 {
     private void OnEnable()
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Sewer Entrance", LoadSceneMode.Single);
     }
 }

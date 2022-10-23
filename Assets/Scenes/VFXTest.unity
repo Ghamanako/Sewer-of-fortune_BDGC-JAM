@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -305,7 +305,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &746264559
 GameObject:
@@ -391,67 +391,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 35.219, y: 0, z: 0}
---- !u!1001 &865666181
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.4760385
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929064, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4458241384177929065, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bac8371e15f317249aa800cf53e32ee8, type: 2}
-    - target: {fileID: 4458241384177929071, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
-      propertyPath: m_Name
-      value: ps_Trail
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ea682726ab13e741afda74ab9f6953d, type: 3}
 --- !u!1 &909605533
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +484,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &909605536
 MonoBehaviour:
@@ -749,18 +688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9000624644198597018, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 9000624644198597018, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9000624644198597019, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bac8371e15f317249aa800cf53e32ee8, type: 2}
     - target: {fileID: 9000624644922040294, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
       propertyPath: m_Name
       value: VFX_Trail
@@ -771,11 +698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9000624644922040295, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.03
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9000624644922040295, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9000624644922040295, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -811,28 +738,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
---- !u!1 &9000624645177474071 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9000624644198597021, guid: 670627c945c10874d92d773c8eb6850f, type: 3}
-  m_PrefabInstance: {fileID: 9000624645177474070}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &9000624645177474072
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000624645177474071}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4807f33cfb079864a9e0fa5058d9a4f8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

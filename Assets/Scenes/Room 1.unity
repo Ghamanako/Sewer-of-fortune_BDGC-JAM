@@ -1709,7 +1709,7 @@ GameObject:
   - component: {fileID: 1112077647}
   - component: {fileID: 1112077646}
   - component: {fileID: 1112077651}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Key
   m_Icon: {fileID: 0}
@@ -2742,10 +2742,6 @@ PrefabInstance:
     - target: {fileID: 6973285310187727769, guid: d2fd34cd3694e564faec2a4acc6a888a, type: 3}
       propertyPath: m_Intensity
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6973285310554929018, guid: d2fd34cd3694e564faec2a4acc6a888a, type: 3}
-      propertyPath: PickUpLayerMask.m_Bits
-      value: 1024
       objectReference: {fileID: 0}
     - target: {fileID: 6973285310554929019, guid: d2fd34cd3694e564faec2a4acc6a888a, type: 3}
       propertyPath: speed

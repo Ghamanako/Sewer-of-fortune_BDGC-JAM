@@ -27,7 +27,9 @@ public class PauseManager : MonoBehaviour
             Time.timeScale = 0;
             PausePanel.SetActive(true);
             isPaused = true;
-        } else if (Input.GetKeyDown(KeyCode.Escape) && isPaused)
+
+        } 
+        else if (Input.GetKeyDown(KeyCode.Escape) && isPaused)
         {
             Time.timeScale = 1;
             PausePanel.SetActive(false);
@@ -43,6 +45,7 @@ public class PauseManager : MonoBehaviour
             PausePanel.SetActive(false);
             isPaused = false;
             SceneManager.LoadScene("MainMenu");
+            Debug.Log("exit");
         }
     }
 
@@ -51,5 +54,6 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1;
         PausePanel.SetActive(false);
         isPaused = false;
+        Debug.Log("Resume");
     }
 }

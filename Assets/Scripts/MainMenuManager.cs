@@ -19,6 +19,7 @@ public class MainMenuManager : MonoBehaviour
         settingsUI.SetActive(false);
         exitPrompt.SetActive(false);
         aboutPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame

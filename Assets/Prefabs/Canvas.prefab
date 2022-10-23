@@ -145,13 +145,14 @@ GameObject:
   - component: {fileID: 1403306857}
   - component: {fileID: 1403306859}
   - component: {fileID: 1403306858}
+  - component: {fileID: 3878298803945794212}
   m_Layer: 5
   m_Name: Pause menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1403306857
 RectTransform:
   m_ObjectHideFlags: 0
@@ -212,6 +213,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!210 &3878298803945794212
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403306856}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
 --- !u!1 &1418591679
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2799474565364970025
 RectTransform:
   m_ObjectHideFlags: 0

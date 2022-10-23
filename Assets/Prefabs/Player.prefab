@@ -437,7 +437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6973285310239961878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.594, z: 0}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -879,7 +879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6973285310554929020}
-  - component: {fileID: 6973285310554929021}
+  - component: {fileID: 4339171104442232004}
   - component: {fileID: 6973285310554929019}
   - component: {fileID: 6973285310554929018}
   - component: {fileID: 6973285310554929017}
@@ -909,7 +909,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &6973285310554929021
+--- !u!143 &4339171104442232004
 CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -980,7 +980,6 @@ MonoBehaviour:
   interacbleLayer:
     serializedVersion: 2
     m_Bits: 264
-  canInteract: {fileID: 0}
   interactImage: {fileID: 0}
   defaultIcon: {fileID: 21300000, guid: 51c7c11e69cd5bf4aaa52d3794bc244c, type: 3}
   defaultIconSize: {x: 100, y: 100}

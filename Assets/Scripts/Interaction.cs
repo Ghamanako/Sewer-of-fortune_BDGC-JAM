@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Interaction : MonoBehaviour
 {
     [SerializeField] LayerMask interacbleLayer = 8;
-    public CanInteract canInteract;
+    CanInteract canInteract;
     public Image interactImage;
     public Sprite defaultIcon;
     public Vector2 defaultIconSize;

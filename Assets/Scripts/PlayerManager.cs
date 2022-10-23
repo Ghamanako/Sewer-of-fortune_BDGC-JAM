@@ -88,7 +88,7 @@ public class PlayerManager : MonoBehaviour
 
     public void StartBoobing()
     {
-        Camera.GetComponent<Animator>().Play("head bobbing");
+        Camera.GetComponent<Animator>().Play("Head boobing");
     }
 
     public void StopBoobing()

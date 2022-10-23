@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - OBJ_PickUp
-  - Key
   layers:
   - Default
   - TransparentFX

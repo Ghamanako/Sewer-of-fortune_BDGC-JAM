@@ -7,8 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: A
+    second: {fileID: 9093856806877707750, guid: 2c2be041a27a05349bb28b161a7d5e66, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B
+    second: {fileID: 477828936443946760, guid: 2c2be041a27a05349bb28b161a7d5e66, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: base
     second: {fileID: 2100000, guid: a2ff26c9d1388654fb56fa9f7986bfc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base ground
+    second: {fileID: 2100000, guid: 91d1fb441d3c4dc4fb42ecbab0f7fa9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base rumput
+    second: {fileID: 6837310599386562262, guid: 2c2be041a27a05349bb28b161a7d5e66, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

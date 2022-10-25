@@ -2016,12 +2016,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 7426813076996848760}
-  startWaitTime: 2
-  timeToRotate: 1
+  startWaitTime: 0.5
+  timeToRotate: 0.5
   speedWalk: 6
   speedRun: 9
   viewRadius: 15
-  viewAngle: 90
+  viewAngle: 180
   playerMask:
     serializedVersion: 2
     m_Bits: 128

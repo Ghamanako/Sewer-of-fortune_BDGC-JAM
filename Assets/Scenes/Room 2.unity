@@ -3660,8 +3660,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 1485863957}
-  startWaitTime: 2
-  timeToRotate: 1
+  startWaitTime: 0.5
+  timeToRotate: 0.5
   speedWalk: 6
   speedRun: 9
   viewRadius: 15
@@ -4162,7 +4162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744775337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.64, y: 1.96, z: 9.18}
+  m_LocalPosition: {x: -12.64, y: 1.96, z: 8.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4864,8 +4864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 2131225385}
-  startWaitTime: 2
-  timeToRotate: 1
+  startWaitTime: 0.5
+  timeToRotate: 0.5
   speedWalk: 6
   speedRun: 9
   viewRadius: 15
